@@ -21,9 +21,12 @@ Navigate into the catkin workspace. `cd catkin_ws` and run `catkin_make` command
 
 After successful build, source the setup file. `source devel/setup.bash` (Here I have assumed that you are at the top of the catkin_ws meaning if you run `pwd` command it would show __../catkin_ws__
 
-Run `roslaunch ball_chaser ball_chaser.launch` to open the gazebo world with the differential drive robot. 
 
-Move the ball from outside the building into the view of the Robot. (The camera is red colored). The robot will start to move towards the ball. Congratulations. 
+Run `roslaunch my_robot world.launch` to open the gazebo world with the differential drive robot. There will be a white ball outside the building. Please use the move tool of gazebo (the hand tool on the toolbar) to move the ball within the view of the robot (The camera is red colored). Check out Gazebo tutorials if you are not familiar with Gazebo environment. [Some Useful Link](https://answers.gazebosim.org//question/13445/how-to-move-objects-and-robot-models-using-gui/) and [Official Gazebo tutorials] (http://gazebosim.org/tutorials) 
+
+Run `roslaunch ball_chaser ball_chaser.launch` to make the robot start moving towards the ball. 
+
+Congratulations. 
 
 ## Suggestions for tinkering with the code
 
