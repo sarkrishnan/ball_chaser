@@ -11,7 +11,7 @@ Please install [**__ROS Kinetic__**](http://wiki.ros.org/kinetic/Installation "R
 
 Create a new catkin workspace (generally named as catkin_ws) and a src folder within it . Example `mkdir -p catkin_ws\src`. (new catkin workspace is preferred in order to avoid conflicts with other existing catkin repositories)
 
-Navigate into the src folder. `cd catkin_ws\src` and run the `catkin_init_workspace` command to initialize the catkin workspace. 
+Navigate into the src folder. `cd catkin_ws/src` and run the `catkin_init_workspace` command to initialize the catkin workspace. 
 
 Clone the project into the src folder. `git clone https://github.com/sarkrishnan/ball_chaser.git`
 
